@@ -9,6 +9,10 @@ import javax.persistence.Table;
 @Table(name="ROL")
 @ManagedBean(name="rols")
 public class Rol extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2311462307145156302L;
 	@Column
 	private String ozellik;
 

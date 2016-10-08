@@ -11,6 +11,10 @@ import Utulity.EnumUtulity;
 @Table(name="TELEFON")
 @ManagedBean(name="tel")
 public class Tel extends BaseModel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3856749530521009043L;
 	@Column
 	private String telNo;
 	@Column

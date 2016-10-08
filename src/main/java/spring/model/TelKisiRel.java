@@ -1,11 +1,15 @@
 package spring.model;
 
-import javax.persistence.CascadeType;
 import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
 public class TelKisiRel extends BaseModel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -864112681282063255L;
+
 	@ManyToOne
 	private Kisi kisi;
 	

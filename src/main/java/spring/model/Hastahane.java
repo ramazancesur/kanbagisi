@@ -1,18 +1,19 @@
 package spring.model;
 
-import java.util.Set;
-
 import javax.faces.bean.ManagedBean;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.OneToMany;
+
 import javax.persistence.Table;
 
 @Entity
 @Table(name="HASTAHANE")
 @ManagedBean(name="hastahanes")
 public class Hastahane extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6740844208765237189L;
 	@Column	
 	private String genelBilgi;
 

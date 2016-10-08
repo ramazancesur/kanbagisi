@@ -1,11 +1,14 @@
 package spring.model;
 
-import java.util.Set;
-
 import javax.persistence.Column;
 import javax.persistence.ManyToOne;
 
-public class TelHastahaneRel {
+public class TelHastahaneRel extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@ManyToOne
 	private Hastahane hastahane;
 	@Column

@@ -12,6 +12,11 @@ import Utulity.EnumUtulity.KanGrubu;
 @Table(name="KISI")
 @ManagedBean(name="kisi")
 public class Kisi extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1356928289936935447L;
+
 	@Column
 	private String email;
 	

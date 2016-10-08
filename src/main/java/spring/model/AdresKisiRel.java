@@ -14,6 +14,10 @@ import javax.persistence.Table;
 @ManagedBean
 public class AdresKisiRel extends BaseModel {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2253927215262978597L;
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "ADRES")
 	@Column
 	private Set<Adres> adres;

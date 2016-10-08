@@ -9,6 +9,10 @@ import javax.persistence.Table;
 @Table(name="KANVERILENRAPOR")
 @ManagedBean(name="kanVerilenRapors")
 public class KanVerilenRapor extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 9051302238980716146L;
 	@ManyToOne
 	private Kisi kisi;
 	@ManyToOne

@@ -9,6 +9,10 @@ import javax.persistence.Table;
 @Table(name="ADRES")
 @ManagedBean(name="adres")
 public class Adres extends BaseModel{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Column
 	private String adres;
 	@Column
